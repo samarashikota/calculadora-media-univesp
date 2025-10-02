@@ -16,6 +16,11 @@ body {
     color: #f0f0f0;
 }
 
+    .container-imagem img {
+      width: 50%; /* Define a largura da imagem como 50% do contêiner pai */
+      height: auto; /* Mantém a proporção da imagem automaticamente */
+    }
+
 .container {
     /* Container escuro e semi-transparente para o fundo aparecer */
     background-color: rgba(0, 0, 0, 1);
