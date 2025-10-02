@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+            <link rel="stylesheet" href="style.css">
+            <title>Calculadora de Média Univesp</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Bem-vindo(a)!</h1>
+        <p>Esta é uma calculadora de média destinada à alunos(as) da Univesp <br><b>(Universidade Virtual do Estado de São Paulo)</b><br><br>
+        A média da Univesp atualmente é <b>5</b>.</p>
+
+        <p>A nota N1 é a nota final (média aritmética) das suas Atividades Avaliativas, feitas virtualmente.</p>
+        <p>A nota N2 é a nota que você tirou na Prova Final, realizada presencialmente nos Polos.</p>
+        <p>-------</p>
+
+        <h1>Calculadora:</h1>
+        <div class="input-group">
+            <label for="n1">Nota N1 (Peso 40%)</label>
+            <input type="number" id="n1" name="n1" min="0" max="10" step="0.1" placeholder="Digite a nota de 0 a 10">
+        </div>
+        <div class="input-group">
+            <label for="n2">Nota N2 (Peso 60%)</label>
+            <input type="number" id="n2" name="n2" min="0" max="10" step="0.1" placeholder="Digite a nota de 0 a 10">
+        </div>
+        <button id="calcularBtn">Calcular Média</button>
+        <div class="resultado">
+            <p>MÉDIA: <span id="mediaFinal">--</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    </body>
+    </html>
