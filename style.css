@@ -28,6 +28,15 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2); /* Borda sutil para dar um acabamento */
 }
 
+@media (max-width: 768px) {
+    flex-direction: column;
+
+  .item {
+    width: 100%;
+    flex: 1 1 auto;
+  }
+}
+
 h1 {
     color: #ffffff;
     margin-bottom: 25px;
