@@ -19,9 +19,9 @@ document.getElementById('calcularBtn').addEventListener('click', function() {
     const media = (n1 * 0.4) + (n2 * 0.6);
 
     // Formata a média para ter no máximo duas casas decimais (apenas para exibição)
-    const mediaFormatada = media.toFixed(2);
+    const mediaFormatada = media.toFixed(3);
 
-    if (media >= 5) {
+    if (media >= 5.0) {
         mediaFinalSpan.textContent = `${mediaFormatada} - Aprovado`;
         mediaFinalSpan.style.color = "#28a745"; // Cor verde para aprovado
     } else {
